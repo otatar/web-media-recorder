@@ -39,7 +39,7 @@ function AudioComponent() {
     if (media) {
       setUserMedia(media);
       setPermision(true);
-      setError(null);
+      setError(undefined);
     }
     if (error) setError(error);
   };
